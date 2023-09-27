@@ -64,6 +64,10 @@ The `Gallery` component is a reusable component that provides a container for di
 
 The `Image` component represents an individual image in the gallery. When a user clicks on an image, it opens in a modal for a closer view. The modal allows users to click outside the image to close it or use a close button.
 
+### Sample Image .zip
+
+In order to fully test the app, feel free to download a set of images from https://www.dropbox.com/s/1n1kg3impje0o5u/gallery-ts.zip and save them in the public/imgs folder.
+
 ## Usage
 
 1. When you run the Gallery app, you will see a list of tags at the top of the page.
