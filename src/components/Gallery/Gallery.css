@@ -1,0 +1,9 @@
+
+  .gallery {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    max-width: 1250px;
+    grid-gap: 5px;
+    padding: 0px 50px;
+  }

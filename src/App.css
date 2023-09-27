@@ -1,0 +1,36 @@
+.title {
+  text-align: center;
+}
+
+.gallery-title {
+  text-align: center;
+  margin-top: 125px;
+}
+
+.tags-container {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  background: white;
+  width: 100%;
+  transform: translateX(-50%);
+  transition: bottom 0.3s ease;
+}
+
+.tags-container__tags {
+  text-align: center;
+}
+
+.tags-container__tag {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  background-color: papayawhip;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tags-container__tag--inactive {
+  text-decoration: line-through;
+}
